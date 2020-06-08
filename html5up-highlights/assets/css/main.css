@@ -175,7 +175,7 @@ html {
 html {
   background-color: #313a3d;
   background-attachment: fixed, fixed;
-  background-image: url("../../images/space.jpg");
+  background-image: url("../../images/wheat.jpg");
   background-position: top left, center center;
   background-repeat: repeat, none;
   background-size: auto, cover;
@@ -2891,6 +2891,11 @@ button:disabled,
   background-color: rgba(144, 144, 144, 0.15);
 }
 
+#projects .img-fluid {
+  width: 30em;
+  height: 18em;
+}
+
 /* Header */
 
 #header {
@@ -2948,6 +2953,8 @@ button:disabled,
   margin: 1.5em 0 0 0;
 }
 
+/* HEADER BACKGROUND COLOR!!*/
+
 #header .container {
   background: rgb(27, 27, 27);
   bottom: 0;
@@ -2974,9 +2981,10 @@ button:disabled,
   text-align: center;
 }
 
+/* FOOTER BACKGROUND COLOR!!*/
 #footer .container {
   padding: 5em 2.5em 3em 2.5em;
-  background: rgba(119, 119, 119, 0.95);
+  background: rgb(27, 27, 27);
   box-shadow: inset 0 1px 0 0 #dddddd;
 }
 
