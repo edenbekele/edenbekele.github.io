@@ -2777,6 +2777,10 @@ button:disabled,
   width: 100%;
 }
 
+.spotlight .image img:hover {
+  opacity: 0.3;
+}
+
 .spotlight .content {
   padding: 2em 4em 0.1em 4em;
   -moz-order: 2;
