@@ -2945,7 +2945,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #ffbf00ef;
+  background-color: #f7e5bfef;
   color: #c8ece9;
 }
 
@@ -2959,7 +2959,7 @@ button:disabled,
 .wrapper.style1 h4,
 .wrapper.style1 h5,
 .wrapper.style1 h6 {
-  color: #434444;
+  color: #252119ef;
 }
 
 .wrapper.style1 hr {
@@ -2975,7 +2975,7 @@ button:disabled,
 }
 
 .wrapper.style1 header p {
-  color: #a6e0db;
+  color: #252119ef;
 }
 
 .wrapper.style1 header.major h2,
@@ -2987,11 +2987,11 @@ button:disabled,
 }
 
 .wrapper.style1 header.major p {
-  color: #c8ece9;
+  color: #252119ef;
 }
 
 .wrapper.style1 label {
-  color: #ffffff;
+  color: #252119ef;
 }
 
 .wrapper.style1 input[type="text"],
@@ -3115,8 +3115,8 @@ button:disabled,
 }
 
 .wrapper.style3 {
-  background-color: #ffbf00ef;
-  color: #434444;
+  background-color: #f7e5bfef;
+  color: #252119ef;
 }
 
 .wrapper.style3 strong,
@@ -3129,7 +3129,7 @@ button:disabled,
 .wrapper.style3 h4,
 .wrapper.style3 h5,
 .wrapper.style3 h6 {
-  color: #434444;
+  color: #252119ef;
 }
 
 .wrapper.style3 hr {
