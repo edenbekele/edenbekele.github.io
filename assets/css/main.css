@@ -3111,7 +3111,7 @@ button:disabled,
 }
 
 .wrapper.style2 {
-  background-color: rgba(107, 104, 0, 0.938);
+  background-color: rgba(68, 66, 0, 0.938);
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -3512,7 +3512,7 @@ button:disabled,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: rgba(27, 26, 0, 0.938);
   color: #ffffff;
   height: 100%;
   max-width: 80%;
