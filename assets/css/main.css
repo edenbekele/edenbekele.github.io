@@ -3111,7 +3111,7 @@ button:disabled,
 }
 
 .wrapper.style2 {
-  background-color: rgba(73, 70, 0, 0.938);
+  background-color: rgba(107, 104, 0, 0.938);
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -3602,7 +3602,7 @@ body.is-menu-visible #menu {
   -webkit-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background: rgba(0, 8, 14, 0.9);
+  background: rgba(19, 18, 0, 0.938);
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -4111,7 +4111,7 @@ body.landing #page-wrapper {
 }
 
 body.landing #footer {
-  background-color: rgba(13, 26, 37, 0.9);
+  background-color: rgba(19, 18, 0, 0.938);
 }
 
 body.is-mobile.landing #page-wrapper {
