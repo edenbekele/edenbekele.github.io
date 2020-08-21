@@ -2709,18 +2709,22 @@ button:disabled,
 
 .features li:nth-child(1) {
   border-top-left-radius: 3px;
+  padding: 1em;
 }
 
 .features li:nth-child(2) {
   border-top-right-radius: 3px;
+  padding: 1em;
 }
 
 .features li:nth-last-child(1) {
   border-bottom-right-radius: 3px;
+  padding: 1em;
 }
 
 .features li:nth-last-child(2) {
   border-bottom-left-radius: 3px;
+  padding: 1em;
 }
 
 @media screen and (max-width: 980px) {
@@ -2746,12 +2750,12 @@ button:disabled,
   }
 
   .features li:first-child {
-    border-top: 0;
+    /* border-top: 0; */
   }
 }
 
 .features h3 {
-  margin-top: -2em;
+  margin-top: 0em;
 }
 
 .inner li {
