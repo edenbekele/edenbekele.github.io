@@ -2762,7 +2762,7 @@ button:disabled,
 .features img {
   width: 30em;
   height: 20em;
-  position: relative;
+  position: inherit;
   margin-left: -4em;
   margin-top: 0em;
   margin-bottom: -2em;
@@ -3296,7 +3296,7 @@ button:disabled,
 
 .wrapper.style4 {
   background-color: transparent;
-  width: 800px;
+  width: relative;
   margin: auto;
 }
 

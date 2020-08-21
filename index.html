@@ -8,7 +8,7 @@
   <head>
     <title>Eden Bekele</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
   </head>
@@ -163,7 +163,13 @@
         <div class="inner">
           <header class="major">
             <h2>The Girl Behind the Screen</h2>
-            <div class="row">
+
+            <div class="grid-container">
+              <div class="grid-item"><img src="images/Eden.jpg" alt="Headshot" style="width: 70%;" /></div>
+              <div class="grid-item"><img src="images/class.JPG" alt="Class" style="width: 120%;" /></div>
+              <div class="grid-item"><img src="images/IMG_0043.jpeg" alt="Travel" style="width: 75%;" /></div>
+            </div>
+            <!-- <div class="row">
               <div class="column">
                 <img src="images/Eden.jpg" alt="Headshot" style="width: 70%;" />
               </div>
@@ -173,7 +179,8 @@
               <div class="column">
                 <img src="images/IMG_0043.jpeg" alt="Travel" style="width: 75%; margin-top: 2px; margin-left: 100px;" />
               </div>
-            </div>
+            </div> -->
+
             <!-- <div class="headshot">
               <img src="./images/Eden.jpg" height="300em" width="210em" />
             </div> -->
@@ -195,13 +202,14 @@
               </p>
             </li>
             <li class="icon solid fa-briefcase" aria-hidden="true">
+              <br />
               <h3>Resume</h3>
               <p>
                 Below, you can find an updated copy of my resume!
                 <br />
                 <br />
-                <a href="https://drive.google.com/file/d/1cd0PCnMEG0AQxziG_lWiQqMbKuFQQ_Z_/view?usp=sharing">
-                  <img src="images/resume.png" style="width: 14em; height: 18em; margin-left: 8px;" alt="" />
+                <a href="">
+                  <!-- <img src="images/resume.png" style="width: 14em; height: 18em; margin-left: 8px;" alt="" /> -->
                   <br />
                 </a>
               </p>
@@ -232,6 +240,7 @@
           <br />
           <ul class="features">
             <li class="icon solid fa-code">
+              <br />
               <h3>Coding</h3>
               <p>
                 While coding is a hobby that I also practice professionally, I love the satisfaction that comes with
@@ -239,6 +248,7 @@
               </p>
             </li>
             <li class="icon solid fa-magic">
+              <br />
               <h3>Cooking</h3>
               <p>
                 Cooking and experimenting in the kitchen is one of my favorites forms of creativity! There are endless
@@ -246,6 +256,7 @@
               </p>
             </li>
             <li class="icon solid fa-paint-brush">
+              <br />
               <h3>Painting</h3>
               <p>
                 When I have time, I enjoy using oil paints to expand my creativity and create. It creates a space for
@@ -253,6 +264,7 @@
               </p>
             </li>
             <li class="icon solid fa-headphones-alt">
+              <br />
               <h3>Concerts</h3>
               <p>
                 Being mmersed in sound and frequenting local shows has always been a love of mine. I find connecting
@@ -340,5 +352,16 @@
 <style>
   img {
     border-radius: 6px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
   }
 </style>
