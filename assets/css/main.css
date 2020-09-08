@@ -2805,6 +2805,9 @@ button:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(22, 32, 6);
 }
 
 .spotlight .image {
